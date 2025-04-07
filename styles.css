@@ -1,0 +1,20 @@
+table {
+    width: 1%;
+    border-collapse: collapse;
+    margin-bottom: 10px 0;
+  }
+  table
+  th,
+  td {
+    padding: 1px;
+    border: 1px solid black;
+    text-align: left;
+  }
+  input {
+    display: block;
+    height: max-content;
+  }
+  section {
+    border: 1px solid rgb(157, 1, 1);
+    margin-top: 10px;
+  }
