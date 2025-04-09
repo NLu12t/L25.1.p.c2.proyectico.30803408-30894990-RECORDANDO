@@ -6,27 +6,27 @@ export default class Cl_controlador {
 
     procesarFotografia() {
         const fotografia = this.vista.procesarFotografia();
-        this.modelo.procesarCliente(fotografia);
+        this.modelo.procesarMultimedia(fotografia);
 
         this.vista.reporte1(
             fotografia.descuento ? fotografia.descuento() : 0,
             fotografia.incremento ? fotografia.incremento() : 0,
             fotografia.precio()
         );
-        this.procesarCliente();
+        this.procesarMultimedia();
     }
     procesarVideo() {
         const video = this.vista.procesarVideo();
-        this.modelo.procesarCliente(video);
+        this.modelo.procesarMultimedia(video);
 
         this.vista.reporte2(
             video.incremento ? video.incremento() : 0,
             video.precio()
         );
-        this.procesarCliente();
+        this.procesarMultimedia();
     }
 
-    procesarCliente() {
+    procesarMultimedia() {
         this.vista.reporte(
             this.modelo.totalVendidoFoto(),
             this.modelo.totalVendidoVideo(),

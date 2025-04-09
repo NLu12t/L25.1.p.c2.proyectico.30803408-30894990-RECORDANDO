@@ -1,6 +1,6 @@
-import Cl_cliente from "./Cl_cliente.js";
+import Cl_multimedia from "./Cl_multimedia.js";
 
-export default class Cl_mVideo extends Cl_cliente {
+export default class Cl_mVideo extends Cl_multimedia {
   constructor({ codigo, costoBase, formato}) {
     super(codigo, costoBase);
     this.formato = formato;

@@ -1,4 +1,4 @@
-export default class Cl_cliente {
+export default class Cl_multimedia {
     constructor( codigo, costoBase ) {
         this.codigo = codigo;
         this.costoBase = costoBase;

@@ -1,5 +1,5 @@
-import Cl_cliente from "./Cl_cliente.js";
-export default class Cl_mFotografia extends Cl_cliente {
+import Cl_multimedia from "./Cl_multimedia.js";
+export default class Cl_mFotografia extends Cl_multimedia {
   constructor( { codigo, costoBase, tipo } ) {
     super(codigo, costoBase);
     this.tipo = tipo;

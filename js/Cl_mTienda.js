@@ -9,7 +9,7 @@ export default class Cl_mTienda {
         this.acumDigitales = 0;
     }
 
-    procesarCliente(pro) {
+    procesarMultimedia(pro) {
         if (pro instanceof Cl_mFotografia) {
             this.acumMontoTotalFoto += pro.precio();
             if (pro.tipo === "D") {

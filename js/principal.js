@@ -15,7 +15,7 @@
  * La Tienda requiere determinar al final de su jornada laboral:
  * el precio de cada cliente, el total vendido y el promedio de ventas
  *  de promociones de fotos digitales vendidas.
- *                                                                                  */
+ *                                                                            */
 
 import Cl_mTienda from "./Cl_mTienda.js";
 import Cl_vTienda from "./CL_vTienda.js";
